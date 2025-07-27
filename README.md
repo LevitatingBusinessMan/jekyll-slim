@@ -7,7 +7,7 @@ Status](http://img.shields.io/gemnasium/slim-template/jekyll-slim.svg?style=flat
 Climate](http://img.shields.io/codeclimate/github/slim-template/jekyll-slim.svg?style=flat)](https://codeclimate.com/github/slim-template/jekyll-slim)
 [![Build Status](http://img.shields.io/travis/slim-template/jekyll-slim.svg?style=flat)](https://travis-ci.org/slim-template/jekyll-slim)
 
-A gem that adds [slim-lang](http://slim-lang.com) support to [Jekyll](http://github.com/mojombo/jekyll). Works for for pages, includes and layouts.
+A gem that adds [slim](http://slim-template.github.io) support to [Jekyll](http://github.com/mojombo/jekyll). Works for for pages, includes and layouts.
 
 ## Installation
 
