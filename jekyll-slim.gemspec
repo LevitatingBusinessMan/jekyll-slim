@@ -18,8 +18,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_runtime_dependency 'byebug'
-  gem.add_runtime_dependency 'jekyll', '~> 3.0'
-  gem.add_runtime_dependency 'sliq', '~> 0.0.3'
+  gem.add_runtime_dependency 'jekyll', '~> 4.0'
+  gem.add_runtime_dependency 'sliq', '~> 0.0.4'
 
   gem.add_development_dependency('rake')
   gem.add_development_dependency('bundler')

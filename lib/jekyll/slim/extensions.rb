@@ -12,12 +12,17 @@ module Jekyll
     alias old_initialize initialize
     def initialize(*args)
       old_initialize(*args)
-      transform
+      self.content = transform
     end
 
     def to_liquid
       data.merge(name: name, content: content)
     end
+    
+    def extname
+      ext
+    end
+    
   end
 
   module Convertible
